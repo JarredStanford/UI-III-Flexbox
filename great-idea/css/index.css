@@ -251,3 +251,13 @@ footer {
 .services-info-img {
 	width: 50%;
 }
+
+@media all and (max-width: 500px) {
+	.services-content {
+	  flex-direction: column;
+	}
+
+@media all and (max-width: 500px) {
+	.services-facts {
+		flex-direction: column;
+	}
